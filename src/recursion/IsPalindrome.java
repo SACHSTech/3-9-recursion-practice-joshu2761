@@ -1,10 +1,12 @@
 package recursion;
-/*
- * 5. Check if a String is a Palindrome
-Write a recursive function isPalindrome(String s) to check if a string is a palindrome.
- */
+
 public class IsPalindrome {
     
+    /**
+     * Check if a string is a palindrome
+     * @param s
+     * @return true if palindrome, false otherwise
+     */
     public static boolean isPalindrome(String s){
         
         if (s.isEmpty() || s.length() == 1) {
