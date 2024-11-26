@@ -1,6 +1,6 @@
 package recursion;
 
-public class findMax {
+public class FindMax {
     
     /**
      * Find the maximum element in an array
